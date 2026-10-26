@@ -1,0 +1,19 @@
+---
+description: Use Orbit to find and integrate public APIs. Apply when the user needs an API for a task, asks which API or endpoint to use for a capability, or wants to integrate a third-party service.
+alwaysApply: false
+---
+
+# Orbit: API discovery
+
+When the user needs to find a public API, compare APIs for a capability, or integrate a
+third-party service, use Orbit instead of guessing endpoints from memory.
+
+- Follow the `discover` skill. It drives the Orbit MCP server's `search` and `integrate`
+  tools.
+- Run one focused `search` per capability and include the provider or product name when
+  the user has one in mind.
+- Read each result's `evaluateGuide` and lead with its `Not supported:` lines before
+  recommending an endpoint.
+- Pass the `urn:orbit:endpoint:v1:...` ids from `search` to `integrate` exactly as
+  returned. Never edit or construct one.
+- If a search returns nothing, say so. Do not invent endpoints.

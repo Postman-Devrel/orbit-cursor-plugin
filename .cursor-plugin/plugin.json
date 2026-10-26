@@ -1,0 +1,26 @@
+{
+  "name": "orbit",
+  "displayName": "Postman Orbit",
+  "version": "1.0.0",
+  "description": "Turn any task into the right API calls. Orbit finds public API endpoints that fit your task and generates instructions to call them, so agents can discover, evaluate, and integrate public APIs.",
+  "author": {
+    "name": "Postman DevRel",
+    "url": "https://github.com/Postman-Devrel"
+  },
+  "homepage": "https://www.buildwithorbit.ai",
+  "repository": "https://github.com/Postman-Devrel/orbit-cursor-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "api-discovery",
+    "api-integration",
+    "developer-tools",
+    "agent",
+    "llm",
+    "search",
+    "postman",
+    "orbit"
+  ],
+  "logo": "assets/logo.png"
+}
